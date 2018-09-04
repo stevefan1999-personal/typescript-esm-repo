@@ -1,0 +1,15 @@
+{
+  "name": "typescript-esm-repo",
+  "version": "0.0.1",
+  "license": "MIT",
+  "devDependencies": {
+    "esm": "3.0.81",
+    "ts-node": "^7.0.1",
+    "tsconfig-paths": "^3.5.0",
+    "typescript": "^3.0.3"
+  },
+  "scripts": {
+    "start": "node -r esm -r ts-node/register/transpile-only -r tsconfig-paths/register ./src/index.ts"
+  },
+  "dependencies": {}
+}
