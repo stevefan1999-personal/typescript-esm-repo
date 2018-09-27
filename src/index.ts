@@ -1,3 +1,3 @@
-import { Request } from "express";
+import { request } from "express";
 
-Request;
+request;
